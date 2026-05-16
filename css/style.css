@@ -1,0 +1,128 @@
+
+:root{
+  --main-color: rgb(237, 0, 0);
+  --main-color1: gray;
+  --main-color2: #f39c12;
+  --main-color3: #3498db;
+  --main-color4:white;
+  --main-color5:#ced4da;
+  --main-color6:#000000;
+
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all .2s linear;
+}
+nav{
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.626);
+}
+.image3{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 45%;
+}
+nav h1{
+  color: var(--main-color6);
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+
+}
+.panier{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45%;
+  padding-right: 30px;
+}
+.sgrille{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.grille{
+  max-width: 1300px;
+  grid-template-columns: repeat(auto-fill, 400px);
+  column-gap: 40px;
+  row-gap: 50px;
+  display: grid;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image4:hover{
+  transform: scale(1.06);
+}
+.product{
+  width: 400px;
+  height: 700px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--main-color1) 4px 0 8px;
+}
+.image4{
+  width: 100%;
+  height: 500px;
+}
+.textes{
+  padding: 10px 10px 0px 10px;
+}
+.details{
+  font-size: 18px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.prise{
+  font-size: 32px;
+}
+.old-price {
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+.input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 12px 0;
+  padding: 5px 10px 0px 10px;
+}          
+.input-group input {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid var(--main-color5);
+  border-radius: 8px;
+  text-align: center;
+}
+button {
+  background: var(--main-color3);
+  color: var(--main-color4);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+button:hover {
+  background:var(--main-color2);
+  transform: scale(1.02);
+}
+

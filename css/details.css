@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all .2s linear;
+}
+
+:root{
+  --main-color: rgb(237, 0, 0);
+  --main-color1: gray;
+  --main-color2: #f39c12;
+  --main-color3: #3498db;
+  --main-color4:white;
+  --main-color5:#ced4da;
+  --main-color6:#000000;
+
+
+}
+
+.detail{
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal{
+  display: flex;
+  height: 300px;
+  width: auto;
+}
+.image5{
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.image5 img:hover{
+  scale: 1.1;
+}
+
+
+
+.vertical{
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  height: 200px;
+  margin-top: 40px;
+}
+
+button {
+  background: var(--main-color3);
+  color: var(--main-color4);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+button:hover {
+  background:var(--main-color2);
+  transform: scale(1.02);
+}
+.payBtn{
+  background-color: var(--main-color);
+}
+
+@media (max-widht: 1030px){
+  .detail{
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .horizontal{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .vertical{
+    width: 100%;
+
+  }
+}

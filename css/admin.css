@@ -1,0 +1,20 @@
+#element1, #element2, #element3 {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 85%;               /* largeur relative à l'écran */
+  margin-left: auto;        /* centre la carte */
+  margin-right: auto;       /* centre la carte */
+}
+h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centre horizontalement tous les enfants */
+}
